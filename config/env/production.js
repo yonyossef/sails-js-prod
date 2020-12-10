@@ -154,7 +154,7 @@ module.exports = {
       // ]
     },
 
-    // csrf: true,
+    csrf: true,
 
   },
 
@@ -254,7 +254,6 @@ module.exports = {
     *                                                                          *
     ***************************************************************************/
      onlyAllowOrigins: [
-   //   'http://127.0.0.1'
     //   'https://example.com',
     //   'https://staging.example.com',
      ],
